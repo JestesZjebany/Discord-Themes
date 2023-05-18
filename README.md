@@ -1,4 +1,5 @@
 # Themes
 
+Discord: Psycho_Fan#4092
 
-TEST
+©️ Psycho_Fan Themes
