@@ -1,7 +1,4 @@
 # Custom Themes For Discord
-<style>
-  background: black;
-  </style>
 
 <h2> All themes has created by: https://bdeditor.dev/ </h2>
 
