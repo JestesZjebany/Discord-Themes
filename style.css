@@ -3,4 +3,6 @@ body {
 }
 .h1text {
   color: cyan;
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
 }
