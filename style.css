@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+.h1text {
+  color: cyan;
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+}
+.copyb {
+  color: cyan;
+  font-family: "Comic Sans MS", cursive;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
