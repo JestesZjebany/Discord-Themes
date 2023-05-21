@@ -11,5 +11,19 @@
     <div class="h1text">
         <h1><center> Portfolio </center></h1>
     </div>
+
+    <button id="rightButton" style="position: fixed; top: 50%; right: 10px;">Click Me!</button>
+
+    <script>
+        document.getElementById("rightButton").addEventListener("click", function() {
+            // Code to copy the text when the button is clicked
+            var textToCopy = document.documentElement.outerHTML;
+            navigator.clipboard.writeText(textToCopy).then(function() {
+                alert("Text copied to clipboard!");
+            }).catch(function(error) {
+                console.error("Unable to copy text: ", error);
+            });
+        });
+    </script>
 </body>
 </html>
