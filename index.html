@@ -10,38 +10,8 @@
 <body>
     <div class="h1text">
         <h1><center> Portfolio </center></h1>
-    </div>
-
-<div class="copyb">
-<button id="rightButton" style="position: fixed; top: 50%; right: 10px;">Copy</button>
-<pre><code class="language-shell">
-TESTUJE cosxddd
-</code></pre>
-
-    <button id="copyButton" style="position: fixed; top: 50%; right: 10px;">Copy Code</button>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
-    <script>
-        document.getElementById("copyButton").addEventListener("click", function() {
-            // Code to copy the code block when the button is clicked
-            var codeElement = document.querySelector("pre code");
-            var codeBlock = codeElement.textContent;
-
-            var clipboard = new ClipboardJS("#copyButton", {
-                text: function() {
-                    return codeBlock;
-                }
-            });
-
-            clipboard.on("success", function() {
-                alert("Code copied to clipboard!");
-            });
-
-            clipboard.on("error", function() {
-                console.error("Unable to copy code.");
-            });
-        });
-    </script>
+        <h2><center> World of Warcraft </h2></center>
+        <h3><center> https://jesteszjebany.github.io/Discord-Themes/Themes/worldofwarcraft.theme.css </h3></center>
     </div>
 </body>
 </html>
